@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.btn-outline-dark {
+  border: 2px solid darkgreen;
+  color: darkgreen;
+}
+
+.btn-outline-dark:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.login-container {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn-edit {
+  border: 2px solid darkgreen;
+  background-color: white;
+  color: darkgreen;
+}
+
+.btn-delete {
+  background-color: #ffcccc;
+  color: darkred;
+  border: 2px solid #ff9999;
+}
+
+.navbar-nav {
+  margin-left: auto;  /* Mută elementele spre dreapta */
+}
+
+pre {
+  max-height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.text-primary {
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.btn-primary {
+  background-color: #006400 !important;  /* Verde închis */
+  border-color: #004d00 !important;      /* Granița verde închis */
+  color: white !important;               /* Text alb */
+}
+
+.btn-primary:hover {
+  background-color: #004d00 !important;  /* Culoare mai închisă la hover */
+}
